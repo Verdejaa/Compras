@@ -1,0 +1,529 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			COMPRAS DE SHEIN & PRICE SHOES
+		</title>
+		<style>
+			*{
+				Margin: 0;
+				Background: Skyblue;}
+			.titulo{
+				Width: 100%;
+				Height: 15%;}
+			.logo{
+				Width: 100;
+				Height:100;
+				Border-radius: 1.5em;
+				Border: 1px solid Black;}
+			.imagenes{
+				Width: 200;
+				Height: 200;
+				Border-radius: 1.5em;
+				Border: 1px solid Black;}
+			.imagenes1{
+				Width: 150;
+				Height: 150;
+				Border-radius: 1.5em;
+				Border: 1px solid Black;}
+			.menus{
+				Width: 100%;
+				Height: 5%;}
+			.catalogos{
+				Width: 100%;
+				Height: 75%;}
+			.letras1{
+				Font-size: 65pt;
+				Font-family: Broadway;
+				Color: #E1AD01;
+					-webkit-text-stroke-width: 1px;
+					-webkit-text-stroke-color: black;}
+			.titulos{
+				Font-size: 25pt;
+				Font-family: Broadway;
+				Color: #710C04;
+				Position: Center;
+					-webkit-text-stroke-width: 1.5px;
+					-webkit-text-stroke-color: Black;}
+			.letras2{
+				Border-radius: .5em;
+				Background: #FFFFA7;
+				Font-size: 15pt;
+				Font-family: Broadway;
+				Color: #710C04;
+				Position: Center;
+					-webkit-text-stroke-width: .5px;
+					-webkit-text-stroke-color: black;}
+			.letras2:hover{
+				Background: #FFBF34;
+				Cursor: Grab;}
+		</style>
+		<script src="JS/CAMBIOS.js"></script>
+	</head>
+	<body>
+		<table class="titulo" border="0";>
+			<tr>
+				<th width="15%";>
+					<img class="logo" src="LOGO.jpeg">
+				</th>
+				<th class="letras1">
+					CATALOGOS
+				</th>
+				<th width="30%";>
+					<img class="logo" src="PRICE.jpeg">
+				</th>
+			</tr>
+		</table>
+		<table class="menus" border="0";>
+			<tr>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="CABALLERO()">
+						CABALLERO
+					</button>
+				</th>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="DAMA()">
+						DAMA
+					</button>
+				</th>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="ELECTRONICA()">
+						ELECTRONICA
+					</button>
+				</th>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="KIDS()">
+						KIDS
+					</button>
+				</th>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="MINI()">
+						MINI
+					</button>
+				</th>
+				<th>
+					<button class="letras2" onclick="PERFUMES()">
+						PERFUMES
+					</button>
+				</th>
+				<th></th>
+				<th>
+					<button class="letras2" onclick="UNISEX()">
+						UNISEX
+					</button>
+				</th>
+				<th></th>
+			</tr>
+		</table>
+		<div id="INICIO" style="Display: Block;">
+			<table class="catalogos" border="0";>
+				<tr>
+					<th>
+						<h1 class="titulos" id="Notas1"></h1><br><br>
+						<h1 class="titulos" id="Notas2"></h1><br><br>
+						<h1 class="titulos" id="Notas3"></h1><br><br>
+							<script type="text/javascript" src="JS/MENSAJES.js"></script>
+					</th>
+				</tr>
+			</table>
+		</div>
+		<div id="KIDS" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/ESCOLAR.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/KIDS/ESCOLAR.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/KIDS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/KIDS/KIDS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS INFANTILES.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/KIDS/SANDALIAS INFANTILES.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS KITS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/KIDS/SANDALIAS KITS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/TODO EN UNO KIDS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/KIDS/TODO EN UNO KIDS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="DAMA" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/CHIC.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/CHIC.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/COMODIDAD.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/COMODIDAD.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/DAMA URBANO.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/DAMA URBANO.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/FAJAS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/FAJAS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/LOVE TO LOUNGE.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/LOVE TO LOUNGE.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/PLAYA.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/PLAYA.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS CON PIEDRAS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/SANDALIAS CON PIEDRAS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/TENDENCIAS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/TENDENCIAS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/VESTIDOS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/VESTIDOS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/VESTIR CASUAL.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/VESTIR CASUAL.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/VESTIR CASUAL1.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/VESTIR CASUAL1.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/VESTIR.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/VESTIR.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/VESTIR1.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/DAMA/VESTIR1.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="CABALLERO" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/CABALLEROS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/CABALLERO/CABALLEROS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/CALZADO PARA SERVICIOS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/CABALLERO/CALZADO PARA SERVICIOS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MAN.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/CABALLERO/MAN.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/URBANO CABALLERO.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/CABALLERO/URBANO CABALLERO.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="ELECTRONICA" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th width="20%"></th>
+					<th>
+						<a href="CATALOGOS/CELULARES Y TRABLETS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/ELECTRONICA/CELULARES Y TABLETS.jpeg">
+						</a>
+					</th>
+					<th width="20%"></th>
+					<th>
+						<a href="CATALOGOS/ELECTRONICOS.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/ELECTRONICA/ELECTRONICOS.jpeg">
+						</a>
+					</th>
+					<th width="20%"></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="PERFUMES" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th width="20%"></th>
+					<th>
+						<a href="CATALOGOS/PERFUMES MUJER.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/PERFUMES/PERFUMES MUJER.jpeg">
+						</a>
+					</th>
+					<th width="20%"></th>
+					<th>
+						<a href="CATALOGOS/PERFUMES HOMBRE.pdf" target="_blank">
+							<img class="imagenes" src="IMAGENES/PERFUMES/PERFUMES HOMBRE.jpeg">
+						</a>
+					</th>
+					<th width="20%"></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="UNISEX" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/ACCESORIOS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/ACCESORIOS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/BOTAS DE LLUVIA.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/BOTAS DE LLUVIA.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/CONFORT.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/CONFORT.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/DENIM.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/DENIM.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/ESENCIALES.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/ESENCIALES.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/JEANS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/JEANS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/LICENCIAS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/LICENCIAS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/OUTFIT.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/OUTFIT.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/SANDALIAS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS1.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/SANDALIAS1.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/STYLE.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/STYLE.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SUMMER.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/SUMMER.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/TODO EN UNO.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/TODO EN UNO.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/URBANO.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/UNISEX/URBANO.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+		<div id="MINI" style="Display: None;">
+			<table class="catalogos" border="0";>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI CALZADO ESPECIAL.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI CALZADO ESPECIAL.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI FLEXI.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI FLEXI.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI GOOD YEARS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI GOOD YEARS.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI JEANS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI JEANS.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI LENCERIA.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI LENCERIA.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI LEVIS.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI LEVIS.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+				<tr>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI PRIMAVERA.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI PRIMAVERA.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/MINI VESTIR.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/MINI VESTIR.jpeg">
+						</a>
+					</th>
+					<th></th>
+					<th>
+						<a href="CATALOGOS/SANDALIAS PLAYA.pdf" target="_blank">
+							<img class="imagenes1" src="IMAGENES/MINI/SANDALIAS PLAYA.jpeg">
+						</a>
+					</th>
+					<th></th>
+				</tr>
+				<tr height="5%";></tr>
+			</table>
+		</div>
+	</body>
+</html>
